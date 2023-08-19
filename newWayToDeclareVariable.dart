@@ -44,7 +44,7 @@ void main() {
    String/int/bool.... so on and null 
       In Some condition we will give a null value in a variable */
 
-  int? some = null;
+  // int? some = null;
 
   String? somVal;
   print(somVal);
@@ -61,9 +61,9 @@ void main() {
 
   print(somVal?.length);
 
-  // If the value is null so output will pritn 0
+  // If the value is null so output will prin 0
 
-  String? nValue;
-
-  print(nValue?.length ?? 0);
+  /* String? nValue;
+ // Dead Code
+  print(nValue?.length ?? 0); */
 }
